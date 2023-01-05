@@ -1,0 +1,147 @@
+.all-container{
+    display: flex;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+  
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 600px;
+    height: 550px;
+    padding: 30px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 20px 15px 10px rgb(245, 238, 238);
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../../images/car7.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+  
+.contact-input {
+    font-size: 17px;
+    width: 100%;
+    padding: 8px 10px 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid red;
+    background-color: transparent;
+    transition: 0.7s;
+    color: #fff;
+}
+
+.contact-input:hover{
+    display: block;
+    transform: scale(1.03);
+    border-radius: 20px;
+}
+  
+.message-input {
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.7s;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.message-input:hover{
+    display: block;
+    transform: scale(1.03);
+    border-radius: 20px;
+}
+  
+.contact-btn {
+    width: 100%;
+    background-color: rgb(230, 80, 93);
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 8px 0;
+    border: none;
+    border-radius: 7px;
+    transition: 0.3s ease;
+}
+  
+.contact-btn:hover {
+    background-color: rgb(201, 49, 49);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+ 
+
+
+.contact-col{
+    flex-basis: 50%;
+    margin-top: 120px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.contact-col div p{
+    padding: 0;
+    margin-left: 20px;
+}
+
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 2px;
+    color: #000;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.icon{
+    font-size: 40px;
+    color: crimson;
+}
+
+.contactus{
+    position: relative;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+    /* -webkit-text-stroke: 0.1vw #383d52; */
+    text-transform: uppercase;
+}
+
+.contactus::before{
+    content: attr(data-text);
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    color: red;
+    align-items: center;
+    -webkit-text-stroke: 0vw ;
+    /* border-right: 1px solid  black; */
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0% ,10% , 10%{
+        width: 0;
+    }
+
+    70% , 100%{
+        width: 281px;
+    }
+
+}

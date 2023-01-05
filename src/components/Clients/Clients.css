@@ -1,0 +1,32 @@
+.clients {
+  padding: 10px 0;
+}
+
+.clients-heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.clients-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.clients-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.clients-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+

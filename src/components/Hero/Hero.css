@@ -1,0 +1,43 @@
+
+.hero-content {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-left {
+  max-width: 550px;
+}
+
+.hero-heading {
+  margin-bottom: 40px;
+}
+
+.hero-text {
+  margin-bottom: 40px;
+  border-left: 2px solid rgb(179, 96, 96);
+  padding: 3px 5px;
+}
+
+.hero-btn {
+  border: none;
+  background-color: rgb(90, 31, 185);
+  color: #fff;
+  font-weight: 700;
+  padding: 5px 8px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.hero-right {
+  max-width: 550px;
+  width: 100%;
+  height: 400px;
+  background-image: url(../../images/car2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

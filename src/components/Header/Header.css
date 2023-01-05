@@ -1,0 +1,36 @@
+.header-site {
+  padding: 10px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 100px;
+  display: block;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: -10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  transition: 0.5s ease;
+}
+
+.nav-item a:hover {
+  display: block;
+  transform: scale(1.2);
+  color: red;
+}
